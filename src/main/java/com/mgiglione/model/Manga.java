@@ -9,7 +9,7 @@ import lombok.Setter;
 @Getter @Setter @NoArgsConstructor @AllArgsConstructor @Builder
 public class Manga {
     private String title;
-    private String description;
+    private String synopsis;
     private Integer volumes;
     private Double score;
 }
