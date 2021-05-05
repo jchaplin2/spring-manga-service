@@ -1,4 +1,4 @@
-package com.mgiglione.service.test.integration;
+package com.mgiglione.service.integration;
 
 import static org.hamcrest.Matchers.hasItem;
 import static org.hamcrest.Matchers.is;
@@ -27,9 +27,7 @@ import com.mgiglione.controller.MangaController;
 @RunWith(SpringRunner.class)
 public class MangaControllerIntegrationTest {
 
-    // @Autowired
     MockMvc mockMvc;
-    
 
     @Autowired
     protected WebApplicationContext wac;
@@ -40,8 +38,6 @@ public class MangaControllerIntegrationTest {
     @Before
     public void setup() throws Exception {
         this.mockMvc = standaloneSetup(this.mangaController).build();// Standalone context
-        // mockMvc = MockMvcBuilders.webAppContextSetup(wac)
-        // .build();
     }
 
     @Test

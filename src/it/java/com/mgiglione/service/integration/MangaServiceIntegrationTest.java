@@ -1,4 +1,4 @@
-package com.mgiglione.service.test.integration;
+package com.mgiglione.service.integration;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
