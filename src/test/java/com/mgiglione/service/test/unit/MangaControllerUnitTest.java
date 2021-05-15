@@ -53,8 +53,7 @@ public class MangaControllerUnitTest {
     @Before
     public void setup() throws Exception {
         this.mockMvc = standaloneSetup(this.mangaController).build();// Standalone context
-        // mockMvc = MockMvcBuilders.webAppContextSetup(wac)
-        // .build();
+
         Manga manga1 = Manga.builder()
             .title("Hokuto no ken")
             .synopsis("The year is 199X. The Earth has been devastated by nuclear war...")
