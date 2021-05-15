@@ -1,15 +1,17 @@
-# spring-test-unit
-This project shows how to do unit and integration tests in a spring boot environment.
+# spring-manga-service
+A simple rest controller that hits an endpoint that allows the user to search manga movies by title.
 
-The demo system is a Manga search engine, that allows searching by title.
+The purpose of this project shows how to do unit and integration tests in a spring boot environment.
 
-You can read full article on my blog page http://www.mgiglione.com/2018/07/14/unit-and-integration-tests-in-spring-boot/
+I've updated the existing project to work with Java 11, and the v3 of the endpoint. I've also configured maven to run the unit tests and integration tests via separate goals.
+
+You can read full article here : http://www.mgiglione.com/2018/07/14/unit-and-integration-tests-in-spring-boot/
 
 
 ## Requirements
 For building and running the application you need:
 
-- [JDK 1.8](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
+- [JDK 1.11](https://www.oracle.com/java/technologies/javase-downloads.html#JDK11)
 - [Maven 3](https://maven.apache.org)
 
 ## Running the application locally
